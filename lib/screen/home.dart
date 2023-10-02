@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
     } catch (e) {
       setState(() {
         isLoading = false;
-        error = 'Failed to fetch users';
+        error = 'Failed to fetch users ';
       });
     }
   }
@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Flutter Rest API 5"),
+        title: const Text("Flutter Rest API 5 "),
       ),
       body: _buildBody(),
     );
